@@ -12,21 +12,18 @@
 // 4 - Territory category, currently unused. See territory/README.md for details.
 
 [
-	["TERRITORY_THRONOS_CASTLE", "Thronos Castle", 4500, "CASTLE"],
-	["TERRITORY_KASTRO_CASTLE", "Kastro Castle", 4500, "CASTLE"],
-	["TERRITORY_SW_AIRFIELD", "AAC Airfield", 4500, "AIRFIELD"],
-	["TERRITORY_MAIN_AIRBASE_SW", "Altis Airport (SW)", 5500, "AIRBASE"],
-	["TERRITORY_MAIN_AIRBASE_CENTER", "Altis Airport (Center)", 5500, "AIRBASE"],
-	["TERRITORY_MAIN_AIRBASE_NE", "Altis Airport (NE)", 5500, "AIRBASE"],
-	["TERRITORY_NE_AIRFIELD", "Molos Airfield", 4500, "AIRFIELD"],
-	["TERRITORY_SE_AIRFIELD", "Selakano Airfield", 4500, "AIRFIELD"],
-	["TERRITORY_NW_AIRFIELD", "Northwest Airfield", 4500, "AIRFIELD"],
-	["TERRITORY_SALTFLATS_AIRFIELD", "Saltflats", 4500, "AIRFIELD"],
-	["TERRITORY_WEST_POWER_PLANT", "West Power Plant", 4500, "POWER"],
-	["TERRITORY_CENTER_POWER_PLANT", "Center Power Plant", 4500, "POWER"],
-	["TERRITORY_IRAKLIA_RUINS", "Iraklia Ruins", 4500, "RUINS"],
-	["TERRITORY_ARTINARKI_RUINS", "Artinarki Ruins", 4500, "RUINS"],
-	["TERRITORY_MAGOS_TRANSMITTER", "Magos Transmitter", 4500, "TRANSMITTER"],
-	["TERRITORY_PYRSOS_TRANSMITTER", "Pyrsos Transmitter", 4500, "TRANSMITTER"],
-	["TERRITORY_MILITARY_RESEARCH", "Telos Military Base", 4500, "MILITARY"]
+	["TERRITORY_AIRCRAFT_CARRIER", "Aircraft Carrier", 5500, "AIRBASE"],
+	["TERRITORY_AIRPORT_NORTH", "North Malden Airport", 5500, "AIRBASE"],
+	["TERRITORY_AIRPORT_SOUTH", "South Malden Airport", 5500, "AIRBASE"],
+	["TERRITORY_AIRPORT_TERMINAL", "Malden Airport Terminal", 5500, "AIRBASE"],
+	["TERRITORY_BAIE_DU_CANCON_PENINSULA", "Baie Du Cancon Peninsula", 4500, "TOWN"],
+	["TERRITORY_BUNKER", "Feas Bunker", 4500, "TOWN"],
+	["TERRITORY_COVE", "Vigny Cove", 4500, "TOWN"],
+	["TERRITORY_LA_PESSANGE", "La Pessange", 4500, "TOWN"],
+	["TERRITORY_LA_TRINTE", "La Trinte", 4500, "TOWN"],
+	["TERRITORY_MANSION", "Blanches Estate", 4500, "TOWN"],
+	["TERRITORY_MILITARY_BASE", "Military Base", 5500, "MILITARY"],
+	["TERRITORY_OLD_MILITARY_BASE_EAST", "Old Military Base East", 5500, "MILITARY"],
+	["TERRITORY_OLD_MILITARY_BASE_WEST", "Old Military Base West", 5500, "MILITARY"],
+	["TERRITORY_PEGASUS_AIRFIELD", "Pegasus Airfield", 5500, "AIRBASE"]
 ]

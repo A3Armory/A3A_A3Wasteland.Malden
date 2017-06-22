@@ -40,7 +40,7 @@ _onScreenTime = 10; //how long one role should stay on screen. Use value from 0 
 sleep 60; //Wait in seconds before the credits start after player IS ingame
  
 _role1 = "Welcome to";
-_role1names = ["A3Armory - A3Wasteland Altis"];
+_role1names = ["A3Armory - A3Wasteland Malden"];
 _role2 = "Player support and forum @";
 _role2names = ["A3Armory.com"];
 _role3 = "Discord Server @";
