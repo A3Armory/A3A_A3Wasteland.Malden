@@ -19,11 +19,16 @@
 	["TERRITORY_BAIE_DU_CANCON_PENINSULA", "Baie Du Cancon Peninsula", 4500, "TOWN"],
 	["TERRITORY_BUNKER", "Feas Bunker", 4500, "TOWN"],
 	["TERRITORY_COVE", "Vigny Cove", 4500, "TOWN"],
-	["TERRITORY_LA_PESSANGE", "La Pessange", 4500, "TOWN"],
-	["TERRITORY_LA_TRINTE", "La Trinte", 4500, "TOWN"],
 	["TERRITORY_MANSION", "Blanches Estate", 4500, "TOWN"],
 	["TERRITORY_MILITARY_BASE", "Military Base", 5500, "MILITARY"],
 	["TERRITORY_OLD_MILITARY_BASE_EAST", "Old Military Base East", 5500, "MILITARY"],
 	["TERRITORY_OLD_MILITARY_BASE_WEST", "Old Military Base West", 5500, "MILITARY"],
+	["TERRITORY_SUBSTATION", "La Pessange Substation", 4500, "TOWN"],
+	["TERRITORY_CONSTRUCTION", "La Riviere Construction Site", 4500, "TOWN"],
+	["TERRITORY_CHAPEL", "La Pessange Chapel", 4500, "TOWN"],
+	["TERRITORY_AID_STATION", "United Nations Aid Station", 5500, "MILITARY"],
+	["TERRITORY_GAS_STATION", "Mont Chauve Gas Station", 4500, "TOWN"],
+	["TERRITORY_UN_OUTPOST", "United Nations Outpost", 5500, "MILITARY"],
+	["TERRITORY_UN_COMMAND", "United Nations Command Post", 5500, "MILITARY"],
 	["TERRITORY_PEGASUS_AIRFIELD", "Pegasus Airfield", 5500, "AIRBASE"]
 ]
