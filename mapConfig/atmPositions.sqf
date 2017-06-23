@@ -4,18 +4,8 @@
 //	@file Name: atmPositions.sqf
 //	@file Author: AgentRev
 
-// ATM positions for Malden map
+// ATM positions for Malden map (none...)
 [
-	[1077.66,686.666,1.28059],
-	[3179.48,6338.54,1.28062],
-	[8167.75,3108.84,1.45945],
-	[7132.96,6054.35,1.28059],
-	[7202.25,7872.92,1.47414],
-	[7260.18,7973.42,1.28059],
-	[7287.38,7966.41,1.49013],
-	[7258.75,8059.97,1.45419],
-	[7125.24,8979.8,1.39342],
-	[8079.39,9720.02,1.28089]
 ]
 
 // The above array was built using the following code snippet called from the mission editor debug console:
