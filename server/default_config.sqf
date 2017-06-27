@@ -111,7 +111,7 @@ PDB_PlayerFileID = "A3W_";         // Player savefile prefix (if you run multipl
 PDB_ObjectFileID = "A3W_";         // Object savefile prefix (if you run multiple servers, change it to a unique value for each server)
 
 // extDB settings
-A3W_extDB_ServerID = 1;            // Server ID to use in the database for the particular server running off this config file; if you have multiple servers, they all need different IDs
+A3W_extDB_ServerID = 4;            // Server ID to use in the database for the particular server running off this config file; if you have multiple servers, they all need different IDs
 A3W_extDB_Environment = "normal";  // Value used to separate player & object data from multiple environments running on the same map (e.g. "normal", "hardcore", "dev", etc. can be whatever you want)
 A3W_extDB_playerSaveCrossMap = 1;  // Player saves are shared across maps in same environment, with player location saved separately for each map; death resets save on all maps (0 = no, 1 = yes)
 A3W_extDB_GhostingTimer = 0;       // Number of seconds a player has to wait when switching between servers running the same map (0 = disabled)
@@ -140,7 +140,7 @@ A3W_hcObjSavingID = 1;             // ID of the headless client in charge of obj
 // Server spawn settings
 A3W_serverSpawning = 1;            // Vehicle, object, and loot spawning (0 = no, 1 = yes)
 A3W_vehicleSpawning = 1;           // If serverSpawning = 1, spawn vehicles in towns (0 = no, 1 = yes)
-A3W_vehicleQuantity = 180;         // Approximate number of land vehicles to be spawned in towns
+A3W_vehicleQuantity = 165;         // Approximate number of land vehicles to be spawned in towns
 A3W_planeSpawnOdds = 0.50;         // 50% chance spawning
 A3W_heliSpawnOdds = 0.50;         // 50% chance spawning
 A3W_boatSpawnOdds = 0.50;         // 50% chance spawning

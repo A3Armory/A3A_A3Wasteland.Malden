@@ -18,7 +18,7 @@ createDialog "TOParmaInfoD";
 _display = (findDisplay TOParmaInfo_dialog);
 
 _serverInfoText = _display displayCtrl TOParmaInfo_Server_Info;
-_serverInfoString = format ["<t color='#A0FFFF'>A3Armory A3Wasteland Altis</t>"];
+_serverInfoString = format ["<t color='#A0FFFF'>A3Armory A3Wasteland Malden</t>"];
 _serverInfoText ctrlSetStructuredText parseText _serverInfoString;
 
 _generalInfoText = _display displayCtrl TOParmaInfo_General_Info_BG;
