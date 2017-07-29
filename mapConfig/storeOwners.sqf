@@ -15,6 +15,7 @@ storeOwnerConfig = compileFinal str
 	["GenStore3", -1, [], []],
 	["GenStore4", -1, [], []],
 	["GenStore5", -1, [], []],
+	["GenStore6", -1, [], []],
 
 	["GunStore1", -1, [], []],
 	["GunStore2", -1, [], []],
@@ -23,8 +24,8 @@ storeOwnerConfig = compileFinal str
 
 	// Buttons you can disable: "Land", "Armored", "Tanks", "Helicopters", "Boats", "Planes"
 	["VehStore1", -1, [], ["Boats"]],
-	["VehStore2", -1, [], ["Boats", "Tanks"]],
-	["VehStore3", -1, [], ["Armored", "Tanks"]],
+	["VehStore2", -1, [], ["Boats"]],
+	["VehStore3", -1, [], []],
 	["VehStore4", -1, [], ["Planes"]]
 ];
 
@@ -36,6 +37,7 @@ storeOwnerConfigAppearance = compileFinal str
 	["GenStore3", [["weapon", ""], ["uniform", "U_IG_Guerilla3_1"]]],
 	["GenStore4", [["weapon", ""], ["uniform", "U_IG_Guerilla1_1"]]],
 	["GenStore5", [["weapon", ""], ["uniform", "U_IG_Guerilla2_3"]]],
+	["GenStore6", [["weapon", ""], ["uniform", "U_IG_Guerilla2_2"]]],
 
 	["GunStore1", [["weapon", ""], ["uniform", "U_B_SpecopsUniform_sgg"]]],
 	["GunStore2", [["weapon", ""], ["uniform", "U_O_SpecopsUniform_blk"]]],
