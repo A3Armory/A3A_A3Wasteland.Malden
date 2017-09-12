@@ -220,7 +220,7 @@ class Mission
 {
 	class Intel
 	{
-		briefingName="A3Wasteland Malden v1.3c";
+		briefingName="A3Wasteland Malden v1.4";
 		overviewText="Wasteland survival sandbox by Team Wasteland - visit A3Wasteland.com for more details";
 		resistanceWest=0;
 		timeOfChanges=3e+038;
