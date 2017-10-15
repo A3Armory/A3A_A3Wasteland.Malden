@@ -389,9 +389,9 @@ accessoriesArray = compileFinal str
 	["LRPS (G Hex)", "optic_LRPS_ghex_F", 1000, "item"],
 	["LRPS (Tropic)", "optic_LRPS_tna_F", 1000, "item"],
 	["NVS", "optic_NVS", 700, "item"],
-	["TWS", "optic_tws", 5000, "item"], // To hide from store list, add "HIDDEN" after "item", like "item", "HIDDEN"]
-	["TWS MG", "optic_tws_mg", 5000, "item"],
-	["Nightstalker", "optic_Nightstalker", 5500, "item"]
+	["TWS", "optic_tws", 1000, "item"], // To hide from store list, add "HIDDEN" after "item", like "item", "HIDDEN"]
+	["TWS MG", "optic_tws_mg", 1000, "item"],
+	["Nightstalker", "optic_Nightstalker", 1000, "item"]
 ];
 
 // If commented, means the color/camo isn't implemented or is a duplicate of another hat
@@ -720,10 +720,10 @@ genItemArray = compileFinal str
 	["Hexacopter UAV (NATO)", "B_UAV_06_backpack_F", 15000, "backpack"],
 	["Hexacopter UAV (CSAT)", "O_UAV_06_backpack_F", 15000, "backpack"],
 	["Hexacopter UAV (AAF)", "I_UAV_06_backpack_F", 15000, "backpack"],
-	["Hexacopter Medical UAV (NATO)", "B_UAV_06_medical_backpack_F", 30000, "backpack"],
-	["Hexacopter Medical UAV (CSAT)", "O_UAV_06_medical_backpack_F", 30000, "backpack"],
-	["Hexacopter Medical UAV (AAF)", "I_UAV_06_medical_backpack_F", 30000, "backpack"],
-	["Hexacopter Demining UAV", "C_IDAP_UAV_06_antimine_backpack_F", 60000, "backpack"],
+	["Hexacopter Medical UAV (NATO)", "B_UAV_06_medical_backpack_F", 20000, "backpack"],
+	["Hexacopter Medical UAV (CSAT)", "O_UAV_06_medical_backpack_F", 20000, "backpack"],
+	["Hexacopter Medical UAV (AAF)", "I_UAV_06_medical_backpack_F", 20000, "backpack"],
+	["Hexacopter Demining UAV", "C_IDAP_UAV_06_antimine_backpack_F", 75000, "backpack"],
 	["Remote Designator (Sand)", "B_Static_Designator_01_weapon_F", 15000, "backpack"],
 	["Remote Designator (Hex)", "O_Static_Designator_02_weapon_F", 15000, "backpack"],
 	["GPS", "ItemGPS", 200, "gps"],
@@ -741,9 +741,9 @@ genItemArray = compileFinal str
 	["Compact NVG (Urban)", "O_NVGoggles_urb_F", 500, "nvg"],
 	["Binoculars", "Binocular", 300, "binoc"],
 	["Rangefinder", "Rangefinder", 750, "binoc"],
-	["Laser Designator (Sand)", "Laserdesignator", 5000, "binoc", "noDLC"], // Increase price to 2500 if A3W_disableBuiltInThermal = 0
-	["Laser Designator (Hex)", "Laserdesignator_02", 5000, "binoc", "noDLC"],
-	["Laser Designator (Olive)", "Laserdesignator_03", 5000, "binoc", "noDLC"],
+	["Laser Designator (Sand)", "Laserdesignator", 1000, "binoc", "noDLC"], // Increase price to 2500 if A3W_disableBuiltInThermal = 0
+	["Laser Designator (Hex)", "Laserdesignator_02", 1000, "binoc", "noDLC"],
+	["Laser Designator (Olive)", "Laserdesignator_03", 1000, "binoc", "noDLC"],
 	["IR Grenade", "B_IR_Grenade", 100, "mag", "WEST"],
 	["IR Grenade", "O_IR_Grenade", 100, "mag", "EAST"],
 	["IR Grenade", "I_IR_Grenade", 100, "mag", "GUER"],
@@ -802,6 +802,8 @@ allStoreGear = compileFinal str (call headArray + call uniformArray + call vestA
 
 genObjectsArray = compileFinal str
 [
+	["Camo Net", "CamoNet_INDP_open_F", 2000, "object", "HIDDEN"], // unlisted, only for object saving
+
 	["Pier Ladder", "Land_PierLadder_F", 2500, "object"],
 	["Ammo Cache", "Box_FIA_Support_F", 2500, "ammocrate"],
 	//["Metal Barrel", "Land_MetalBarrel_F", 1000, "object"],
@@ -957,6 +959,8 @@ tanksArray = compileFinal str
 
 helicoptersArray = compileFinal str
 [
+	["Hexacopter Demining UAV", "C_IDAP_UAV_06_antimine_F", (call genItemArray) select {_x select 1 == "C_IDAP_UAV_06_antimine_backpack_F"} select 0 select 2, "vehicle", "HIDDEN"], // for resupply price
+
 	["M-900 Civilian", "C_Heli_Light_01_civil_F", 4000, "vehicle"], // MH-6, no flares
 	["MH-9 Hummingbird", "B_Heli_Light_01_F", 4500, "vehicle"], // MH-6
 	["PO-30 Orca (Unarmed)", "O_Heli_Light_02_unarmed_F", 5500, "vehicle"], // Ka-60
@@ -992,18 +996,18 @@ planesArray = compileFinal str
 	["Caesar BTT", "C_Plane_Civil_01_F", 3250, "vehicle"],
 
 	["A-143 Buzzard AA", "I_Plane_Fighter_03_dynamicLoadout_F", 95000, "vehicle", "variant_buzzardAA"],
-	["A-143 Buzzard CAS", "I_Plane_Fighter_03_dynamicLoadout_F", 160000, "vehicle", "variant_buzzardCAS"],
+	["A-143 Buzzard CAS", "I_Plane_Fighter_03_dynamicLoadout_F", 175000, "vehicle", "variant_buzzardCAS"],
 
-	["A-149 Gryphon", "I_Plane_Fighter_04_F", 165000, "vehicle"],
+	["A-149 Gryphon", "I_Plane_Fighter_04_F", 180000, "vehicle"],
 
-	["F/A-181 Black Wasp (Gun-Only)", "B_Plane_Fighter_01_Stealth_F", 70000, "vehicle"], // no missiles or bombs
-	["F/A-181 Black Wasp", "B_Plane_Fighter_01_F", 215000, "vehicle"],
+	["F/A-181 Black Wasp (Gun-Only)", "B_Plane_Fighter_01_Stealth_F", 95000, "vehicle"], // no missiles or bombs
+	["F/A-181 Black Wasp", "B_Plane_Fighter_01_F", 250000, "vehicle"],
 
-	["To-201 Shikra (Gun-Only)", "O_Plane_Fighter_02_Stealth_F", 80000, "vehicle"], // no missiles or bombs
-	["To-201 Shikra", "O_Plane_Fighter_02_F", 230000, "vehicle"],
+	["To-201 Shikra (Gun-Only)", "O_Plane_Fighter_02_Stealth_F", 100000, "vehicle"], // no missiles or bombs
+	["To-201 Shikra", "O_Plane_Fighter_02_F", 250000, "vehicle"],
 
-	["A-164 Wipeout CAS", "B_Plane_CAS_01_dynamicLoadout_F", 300000, "vehicle"],
-	["To-199 Neophron CAS", "O_Plane_CAS_02_dynamicLoadout_F", 290000, "vehicle"],
+	["A-164 Wipeout CAS", "B_Plane_CAS_01_dynamicLoadout_F", 350000, "vehicle"],
+	["To-199 Neophron CAS", "O_Plane_CAS_02_dynamicLoadout_F", 325000, "vehicle"],
 
 	["V-44 X Blackfish (Infantry)", "B_T_VTOL_01_infantry_F", 24000, "vehicle"],
 	["V-44 X Blackfish (Gunship)", "B_T_VTOL_01_armed_F", 150000, "vehicle"],
@@ -1576,12 +1580,7 @@ missionOnlyItems = compileFinal str
 "MMG_01_hex_F",
 "Titan_AT",
 "Titan_AP",
-"Laserdesignator",
-"Laserdesignator_02",
-"Laserdesignator_03",
-"optic_tws",
-"optic_tws_mg",
-"optic_Nightstalker"
+"C_IDAP_UAV_06_antimine_backpack_F"
 ];
 
 call compile preprocessFileLineNumbers "mapConfig\storeOwners.sqf";
