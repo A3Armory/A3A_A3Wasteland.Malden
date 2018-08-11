@@ -471,7 +471,7 @@ player createDiaryRecord ["changelog",
 [
 "v0.9b",
 "
-<br/>[Initial release] - Welcome to Altis!
+<br/>[Initial release] - Welcome to Malden!
 "
 ]];
 
